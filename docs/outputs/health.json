@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "postgres": true,
+  "redis": true,
+  "clickhouse": true
+}

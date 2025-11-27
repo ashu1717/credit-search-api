@@ -1,0 +1,14 @@
+<clickhouse>
+  <!-- Allow connecting to ClickHouse from other containers in dev -->
+  <users>
+    <default>
+      <networks>
+        <ip>0.0.0.0/0</ip>
+        <ip>::/0</ip>
+      </networks>
+      <allow_empty_password>1</allow_empty_password>
+      <profile>default</profile>
+      <quota>default</quota>
+    </default>
+  </users>
+</clickhouse>
